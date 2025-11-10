@@ -1,3 +1,7 @@
+from os import system
+# Support for some Not-Effective terminal color Scenarios
+system("")
+
 def pprint(text, color="default"):
     colors = {
         "default": 39,      # Default color
