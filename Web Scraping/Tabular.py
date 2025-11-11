@@ -1,5 +1,8 @@
 # use file pprint.py in ../color_print/
-# from pprint import pprint
+try:
+    from pprint import pprint
+except:
+    pass
 
 def tabular(dict):
     max_key_width = int(len(max(list(dict.keys()), key=len)))
