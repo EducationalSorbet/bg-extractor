@@ -4,7 +4,7 @@ from glob import glob
 
 # Load images from a directory
 
-image_files = glob("path_to_images/*.jpg")
+image_files = glob("frames/*.jpg")
 print("Reading Files")
 images = [cv2.imread(img) for img in image_files]
 
